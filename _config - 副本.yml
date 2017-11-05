@@ -37,7 +37,7 @@ rss:
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2017
+  #since: 2015
 
   # Icon between year and copyright info.
   icon: user
@@ -85,8 +85,9 @@ index_with_subtitle: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  tags: /tags/ || tags
-  categories: /categories/ || th
+  
+  #tags: /tags/ || tags
+  #categories: /categories/ || th
   archives: /archives/ || archive
   about: /about/ || user
   #schedule: /schedule/ || calendar
@@ -120,7 +121,7 @@ scheme: Mist
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/masque-fate || github
+  #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:masque.fate@gmail.com || envelope
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -141,14 +142,13 @@ links_icon: link
 links_title: Links
 links_layout: block
 #links_layout: inline
-links:
-  给我留言: https://gitter.im/maskspace/Lobby
-  基金均线分析: http://ionia-code.gitee.io/fundtool/html/index.html
+#links:
+  #Title: http://example.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: http://oy7ijf7fy.bkt.clouddn.com/head_1.png
+#avatar: /images/avatar.gif
 
 # Table Of Contents in the Sidebar
 toc:
@@ -215,10 +215,10 @@ auto_excerpt:
 
 # Post meta display settings
 post_meta:
-  item_text: true
+  #item_text: true
   created_at: true
-  updated_at: true
-  categories: true
+  #updated_at: false
+  #categories: true
 
 # Post wordcount display settings
 # Dependencies: https://github.com/willin/hexo-wordcount
@@ -271,7 +271,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night bright
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -287,7 +287,7 @@ highlight_theme: night bright
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 # ---------------------------------------------------------------
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default).
   host:
@@ -300,14 +300,14 @@ font:
   # Global font settings used on <body> element.
   global:
     external: true
-    family: Monda
+    family: Lato
     size:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Roboto Slab
+    family:
     size:
 
   # Font settings for posts.
@@ -320,13 +320,13 @@ font:
   # Fallback to `global` font settings.
   logo:
     external: true
-    family: Lobster Two
-    size: 24
+    family:
+    size:
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: PT Mono
+    family:
     size:
 
 
@@ -364,8 +364,8 @@ disqus:
 # changyan
 changyan:
   enable: false
-  appid: cythK17az
-  appkey: 4bb79b717adc4483309138fc8f0efcec
+  appid: 
+  appkey: 
 
 
 # Valine.
@@ -381,7 +381,7 @@ valine:
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
-#youyan_uid: 2147567
+#youyan_uid: your uid
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -407,8 +407,8 @@ gitment:
 # Available value:
 #    button | slide
 # Warning: Baidu Share does not support https.
-#baidushare:
-#  type: button
+baidushare:
+  type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -674,7 +674,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
@@ -787,8 +787,6 @@ vendors:
 css: css
 js: js
 images: images
-
-use_motion: true
 
 # Theme version
 version: 5.1.3
