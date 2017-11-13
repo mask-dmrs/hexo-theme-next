@@ -105,9 +105,9 @@ menu_icons:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
+#scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -142,13 +142,14 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  给我留言: https://gitter.im/maskspace/Lobby
+  关于我: https://about.me/maskleo
+  #给我留言: https://gitter.im/maskspace/Lobby
   基金均线分析: http://ionia-code.gitee.io/fundtool/html/index.html
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: http://oy7ijf7fy.bkt.clouddn.com/head_1.png
+avatar: https://dmrsme.toolbox.xin/dmrs_red.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -217,7 +218,7 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: true
+  updated_at: false
   categories: true
 
 # Post wordcount display settings
@@ -237,8 +238,8 @@ post_wordcount:
 
 # Reward
 reward_comment: 如果您觉得我的文章对您有帮助,请随意打赏!
-wechatpay: http://oy7ijf7fy.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE.png
-alipay: http://oy7ijf7fy.bkt.clouddn.com/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE.png
+wechatpay: https://dmrsme.toolbox.xin/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE.png
+alipay: https://dmrsme.toolbox.xin/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE.png
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts
@@ -364,8 +365,10 @@ disqus:
 # changyan
 changyan:
   enable: false
-  appid: cythK17az
-  appkey: 4bb79b717adc4483309138fc8f0efcec
+  #cythK17az
+  appid: 
+  #4bb79b717adc4483309138fc8f0efcec
+  appkey: 
 
 
 # Valine.
@@ -390,16 +393,24 @@ valine:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 gitment:
-  enable: false
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  count: true # Show comments count in post meta area
-  lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
+  enable: true
+  # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  mint: false 
+  # Show comments count in post meta area
+  count: true 
+  # Comments lazy loading with a button
+  lazy: false 
+  # Hide 'Powered by ...' on footer, and more
+  cleanly: false 
   language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github ID
-  github_repo: # MUST HAVE, The repo you use to store Gitment comments
-  client_id:   # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+   # MUST HAVE, Your Github ID
+  github_user: mask-dmrs
+  # MUST HAVE, The repo you use to store Gitment comments
+  github_repo: gitment-dmrs
+  # MUST HAVE, Github client id for the Gitment
+  client_id: 03fe457f0f91d7d6e9a6  
+  # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  client_secret: 21da81e34eb6266db9bef061f616fdba8f8bb5e9 
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -530,28 +541,28 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
-  site_uv: true
+  site_uv: false
   site_uv_header: <i class="fa fa-user"></i>您是第
   site_uv_footer: 位访客
   # custom pv span for the whole site
-  site_pv: true
+  site_pv: false
   site_pv_header: <i class="fa fa-eye"></i>站点被访问
   site_pv_footer: 次
   # custom pv span for one page only
-  page_pv: true
+  page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
   page_pv_footer: 
 
 
 # Tencent analytics ID
-tencent_analytics: 63983978
+#tencent_analytics: 63983978
 
 # Tencent MTA ID
 # tencent_mta:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: true
+# baidu_push: true
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
