@@ -142,9 +142,11 @@ links_title: Links
 links_layout: block
 #links_layout: inline
 links:
-  关于我: https://about.me/maskleo
+  关于我: https://about.me/maskleo?from=dmrs.me
   #给我留言: https://gitter.im/maskspace/Lobby
-  基金均线分析: http://ionia-code.gitee.io/fundtool/html/index.html
+  基金工具: http://ionia-code.gitee.io/fundtool/html/index.html?from=dmrs.me
+  代码片段: https://gists.books.ink/?from=dmrs.me
+  笔记本: https://note.books.ink/?from=dmrs.me
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -366,9 +368,9 @@ disqus:
 changyan:
   enable: false
   #cythK17az
-  appid: 
+  appid:
   #4bb79b717adc4483309138fc8f0efcec
-  appkey: 
+  appkey:
 
 
 # Valine.
@@ -395,22 +397,22 @@ valine:
 gitment:
   enable: true
   # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  mint: false 
+  mint: false
   # Show comments count in post meta area
-  count: true 
+  count: true
   # Comments lazy loading with a button
-  lazy: false 
+  lazy: false
   # Hide 'Powered by ...' on footer, and more
-  cleanly: false 
+  cleanly: false
   language: # Force language, or auto switch by theme
    # MUST HAVE, Your Github ID
   github_user: mask-dmrs
   # MUST HAVE, The repo you use to store Gitment comments
   github_repo: gitment-dmrs
   # MUST HAVE, Github client id for the Gitment
-  client_id: 03fe457f0f91d7d6e9a6  
+  client_id: 03fe457f0f91d7d6e9a6
   # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  client_secret: 21da81e34eb6266db9bef061f616fdba8f8bb5e9 
+  client_secret: 21da81e34eb6266db9bef061f616fdba8f8bb5e9
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -445,14 +447,14 @@ gitment:
 #           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
   enable: true
-  postbottom: 
+  postbottom:
     enable: true
     options:
       iconStyle: default
       boxForm: horizontal
       position: bottomCenter
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
-  float: 
+  float:
     enable: true
     options:
       iconStyle: default
@@ -551,7 +553,7 @@ busuanzi_count:
   # custom pv span for one page only
   page_pv: false
   page_pv_header: <i class="fa fa-file-o"></i>
-  page_pv_footer: 
+  page_pv_footer:
 
 
 # Tencent analytics ID
@@ -685,7 +687,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: true
+canvas_nest: false
 
 # three_waves
 three_waves: false
