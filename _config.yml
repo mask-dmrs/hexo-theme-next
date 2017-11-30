@@ -152,7 +152,7 @@ links:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: https://dmrsme.toolbox.xin/dmrs_red.png
+avatar: https://static.zuul.top/dmrs-me/sys/dmrs_red.png
 
 # Table Of Contents in the Sidebar
 toc:
@@ -241,8 +241,8 @@ post_wordcount:
 
 # Reward
 reward_comment: 如果您觉得我的文章对您有帮助,请随意打赏!
-wechatpay: https://dmrsme.toolbox.xin/%E5%BE%AE%E4%BF%A1%E6%94%B6%E6%AC%BE.png
-alipay: https://dmrsme.toolbox.xin/%E6%94%AF%E4%BB%98%E5%AE%9D%E6%94%B6%E6%AC%BE.png
+wechatpay: https://static.zuul.top/dmrs-me/sys/WeChat-pay.png
+alipay: https://static.zuul.top/dmrs-me/sys/Alipay-pay.png
 #bitcoin: /images/bitcoin.png
 
 # Declare license on posts

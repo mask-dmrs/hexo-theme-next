@@ -10,7 +10,7 @@
 ((window.gitter = {}).chat = {}).options = {
     room: 'maskspace/Lobby'
   };
-$.getScript("https://dmrsme.toolbox.xin/gitter/dist/sidecar.v1.js");
+$.getScript("https://static.zuul.top/gitter/dist/sidecar.v1.js");
 	window.onload=function(){
 		$(".gitter-open-chat-button").show();
 		$(".gitter-open-chat-button").text("聊天室");
