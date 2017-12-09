@@ -144,10 +144,7 @@ links_layout: block
 links:
   关于我: https://about.me/maskleo?from=dmrs.me
   #给我留言: https://gitter.im/maskspace/Lobby
-  基金工具: http://ionia-code.gitee.io/fundtool/html/index.html?from=dmrs.me
-  代码片段: https://g.books.ink/?from=dmrs.me
-  笔记本: https://n.books.ink/?from=dmrs.me
-  设计模式: https://d.books.ink/?from=dmrs.me
+  基金工具: http://fund.toolbox.xin/?from=dmrs.me
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
